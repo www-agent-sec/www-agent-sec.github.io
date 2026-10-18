@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111b30">
+  <meta name="description" content="WASST 2027 — The 1st Workshop on Security, Safety, and Trust for Agents on the Web. A proposed workshop at The Web Conference 2027.">
+  <title>WASST 2027 | Security, Safety, and Trust for Agents on the Web</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preload" href="pt-sans-regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="pt-sans-bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <aside class="sidebar" aria-label="Workshop navigation">
+    <a class="brand" href="#home" aria-label="WASST 2027 home"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 3.5 34.3 11.8v16.4L20 36.5 5.7 28.2V11.8L20 3.5Z" stroke="currentColor" stroke-width="1.6"/><path d="m6 12 14 8 14-8M20 20v16M13 8l14 24M27 8 13 32" stroke="currentColor" stroke-width="1.15" opacity=".5"/><circle cx="20" cy="20" r="4" fill="currentColor"/><circle cx="6" cy="12" r="2.6" fill="currentColor"/><circle cx="34" cy="12" r="2.6" fill="currentColor"/><circle cx="20" cy="36" r="2.6" fill="currentColor"/></svg><span>WASST <span class="brand-year">2027</span></span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="navigation"><span class="menu-label">Menu</span><span class="menu-lines" aria-hidden="true"></span></button>
+    <nav id="navigation" aria-label="On this page">
+      <a href="#about">About</a>
+      <a href="#topics">Topics</a>
+      <a href="#submission">Submission</a>
+      <a href="#format">Format of workshop</a>
+      <a href="#attendance">Attendance</a>
+      <a href="#dates">Important dates</a>
+      <a href="#organisers">Organisers</a>
+    </nav>
+  </aside>
+  <main id="main">
+    <header class="hero" id="home">
+      <div class="hero-inner">
+        <h1><span>The 1st Workshop on</span><span>Security, Safety, and Trust</span><span>for Agents on the Web <span class="title-acronym">(WASST 2027)</span></span></h1>
+        <div class="hero-details"><p class="hero-context">Proposed workshop at<br><strong><a href="https://www2027.thewebconf.org/" target="_blank" rel="noopener noreferrer">The Web Conference 2027</a></strong></p>
+        <div class="hero-meta"><span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><rect x="3" y="4.5" width="14" height="12.5" rx="2"/><path d="M6.5 3v3M13.5 3v3M3 9h14"/></svg><span><a href="https://www2027.thewebconf.org/research-track-papers/" target="_blank" rel="noopener noreferrer">10–14 May 2027 <small>(conference)</small></a></span></span><span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16 8c0 4.5-6 9-6 9S4 12.5 4 8a6 6 0 1 1 12 0Z"/><circle cx="10" cy="8" r="2"/></svg>Dublin, Ireland</span></div><p class="hero-workshop-note"><a href="https://www2027.thewebconf.org/programme/" target="_blank" rel="noopener noreferrer">Workshop schedule: see the official programme ↗</a></p></div>
+      </div>
+    </header>
+    <div class="content">
+      <section id="about" class="section about-section" aria-labelledby="about-heading">
+        <div class="section-heading"><h2 id="about-heading">About</h2></div>
+        <p class="lead"><strong>WASST 2027</strong> brings together the web, security, and machine learning communities to advance the safety, security, and trustworthiness of generative AI agents on the web.</p>
+        <p>Generative AI agents are moving from research prototypes to systems that browse websites, operate graphical interfaces, call external tools, and complete transactions with little to no human intervention. As agents become more autonomous, they introduce new risks — and new questions for the web community.</p>
+        <p>The workshop creates a shared forum for understanding these risks, developing practical defences, and anticipating emerging threats. We welcome work on deployed systems as well as forward-looking research, with substantial space for discussion across disciplines and career stages.</p>
+      </section>
+      <section id="topics" class="section" aria-labelledby="topics-heading">
+        <div class="section-heading"><h2 id="topics-heading">Topics</h2></div>
+        <p class="section-intro">The workshop is organised around three complementary dimensions — safety, security, and trust — alongside the ecosystems, defences, and evaluation practices that connect them. Topics include, but are not limited to:</p>
+        <div class="topic-list"><article class="topic-row"><div class="topic-label"><h3>Safety</h3></div><div class="topic-body"><p class="theme-description">Failures that arise without an adversary, including misunderstood instructions, unintended or irreversible actions, and compounding errors across long action sequences.</p><ul><li>Unintended and irreversible actions</li><li>Error propagation in long-horizon and multi-agent tasks</li><li>Failures of safety alignment in tool use and GUI execution</li><li>Privacy leakage through agent actions</li></ul></div></article><article class="topic-row"><div class="topic-label"><h3>Security</h3></div><div class="topic-body"><p class="theme-description">Deliberate attacks that exploit web content, tools, and interfaces to hijack, manipulate, or exhaust agents.</p><ul><li>Attacks across the perception, reasoning, execution, and memory layers of web agents</li><li>Prompt injection, goal hijacking, and confused-deputy exploits</li><li>Backdoor and poisoning attacks</li><li>Multimodal and interface-based jailbreaks</li><li>Memory poisoning and persistent attacks</li><li>Resource-exhaustion and denial-of-efficiency attacks</li><li>Automated and adaptive red-teaming</li></ul></div></article><article class="topic-row"><div class="topic-label"><h3>Trust</h3></div><div class="topic-body"><p class="theme-description">Agents deployed for harmful ends, and the web’s ability to distinguish them from legitimate agents.</p><ul><li>Agents deployed for fraud, manipulation, abusive automation, or attacks on web services</li><li>Detection and measurement of agent activity at web scale</li><li>Agent identity, authentication, authorization, and attestation</li><li>Content provenance and non-repudiation</li><li>Effects of agentic traffic on publishers, platforms, and users</li></ul></div></article><article class="topic-row"><div class="topic-label"><h3>Agent ecosystems and emerging threats</h3></div><div class="topic-body"><ul><li>Security of tool and agent supply chains</li><li>Malicious or compromised tools, plugins, and MCP servers</li><li>Tool poisoning, privilege escalation, and cross-agent attacks</li><li>Fully autonomous agents conducting fraud, scams, and social engineering at scale</li><li>Coordinated bot networks operating across platforms</li><li>Risks arising from multi-agent systems, agentic interaction, and tool protocols such as MCP</li><li>Attacks on retrieval-augmented and memory-persistent agents</li><li>Threats related to agentic commerce and autonomous transactions</li></ul></div></article><article class="topic-row"><div class="topic-label"><h3>Defences, evaluation, and governance</h3></div><div class="topic-body"><ul><li>Benchmarks, datasets, and metrics for agent safety, security, and trust</li><li>Runtime monitoring, containment, and policy enforcement</li><li>Least-privilege tool access and permission control</li><li>Auditing, traceability, and incident response</li><li>Empirical studies of commercial agents in real web environments</li><li>Scalable evaluation against adaptive adversaries</li><li>Open problems and forward-looking position papers</li></ul></div></article></div>
+      </section>
+      <section id="submission" class="section" aria-labelledby="submission-heading">
+        <div class="section-heading"><h2 id="submission-heading">Submission Requirements</h2></div>
+        <p>We encourage contributions that address current challenges in web agents, anticipate emerging threats, or set out new research directions. Research on deployed systems, work in progress, and forward-looking studies and position papers are welcome.</p><p>For conference-wide workshop information, submission guidance, and publication policies, please refer to the official conference website:</p><p class="official-link-line"><a href="https://www2027.thewebconf.org/workshops/" target="_blank" rel="noopener noreferrer">The Web Conference 2027 — Workshops <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+      </section>
+      <section id="format" class="section" aria-labelledby="format-heading">
+        <div class="section-heading"><h2 id="format-heading">Format of Workshop</h2></div>
+        <p>A proposed full-day, in-person workshop combining contributed talks, a poster session, a panel, and a closing discussion. The programme is organised around security, safety, and trust for agents on the web, with substantial time for questions and discussion.</p>
+      </section>
+      <section id="attendance" class="section" aria-labelledby="attendance-heading"><div class="section-heading"><h2 id="attendance-heading">Attendance</h2></div><p>The workshop welcomes researchers and practitioners from web research, security, machine learning, information retrieval, and related disciplines, across academia and industry. Early-career researchers and work in progress are particularly encouraged.</p><p>We expect 50–60 on-site participants. The proposed programme includes a poster presentation for every accepted paper, including those selected for oral presentation. Please refer to the <a href="https://www2027.thewebconf.org/attending/" target="_blank" rel="noopener noreferrer">official attending information</a> for participation and registration updates.</p></section>
+      <section id="dates" class="section dates-section" aria-labelledby="dates-heading">
+        <div class="section-heading"><h2 id="dates-heading">Important Dates</h2></div>
+        <p>For the latest workshop submission deadlines and scheduling announcements, please consult the official conference pages:</p>
+        <p class="official-link-line"><a href="https://www2027.thewebconf.org/important-dates/" target="_blank" rel="noopener noreferrer">Official Workshop Timeline <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+        <p class="official-link-line"><a href="https://www2027.thewebconf.org/programme/" target="_blank" rel="noopener noreferrer">Official Conference Programme <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a></p>
+      </section>
+      <section id="organisers" class="section organisers-section" aria-labelledby="organisers-heading">
+        <div class="section-heading"><h2 id="organisers-heading">Workshop Organisers</h2></div>
+        <ul class="organiser-grid"><li class="organiser"><p><strong>Jiawen Zhu</strong>, Singapore Management University, Singapore, <a class="email" href="mailto:jwzhu.2022@phdcs.smu.edu.sg">jwzhu.2022@phdcs.smu.edu.sg</a> <span class="contact-tag">(primary contact)</span></p></li><li class="organiser"><p><strong>Mike Qizhou Wang</strong>, The University of Melbourne, Australia, <a class="email" href="mailto:mike.wang@unimelb.edu.au">mike.wang@unimelb.edu.au</a> <span class="contact-tag">(primary contact)</span></p></li><li class="organiser"><p><strong>Xueyi Zhang</strong>, National University of Singapore, Singapore, <a class="email" href="mailto:xueyi.zhang@nus.edu.sg">xueyi.zhang@nus.edu.sg</a></p></li><li class="organiser"><p><strong>Jiaheng Zhang</strong>, National University of Singapore, Singapore, <a class="email" href="mailto:jhzhang@nus.edu.sg">jhzhang@nus.edu.sg</a></p></li><li class="organiser"><p><strong>Elisa Ricci</strong>, University of Trento, Italy, <a class="email" href="mailto:e.ricci@unitn.it">e.ricci@unitn.it</a></p></li><li class="organiser"><p><strong>Flora Salim</strong>, The University of New South Wales, Australia, <a class="email" href="mailto:flora.salim@unsw.edu.au">flora.salim@unsw.edu.au</a></p></li><li class="organiser"><p><strong>Guansong Pang</strong>, Singapore Management University, Singapore, <a class="email" href="mailto:gspang@smu.edu.sg">gspang@smu.edu.sg</a></p></li><li class="organiser"><p><strong>Christopher Leckie</strong>, The University of Melbourne, Australia, <a class="email" href="mailto:caleckie@unimelb.edu.au">caleckie@unimelb.edu.au</a></p></li></ul>
+      </section>
+    </div>
+    <footer class="footer"><div><a href="#home" class="footer-brand"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M20 3.5 34.3 11.8v16.4L20 36.5 5.7 28.2V11.8L20 3.5Z" stroke="currentColor" stroke-width="1.6"/><path d="m6 12 14 8 14-8M20 20v16M13 8l14 24M27 8 13 32" stroke="currentColor" stroke-width="1.15" opacity=".5"/><circle cx="20" cy="20" r="4" fill="currentColor"/><circle cx="6" cy="12" r="2.6" fill="currentColor"/><circle cx="34" cy="12" r="2.6" fill="currentColor"/><circle cx="20" cy="36" r="2.6" fill="currentColor"/></svg><span>WASST 2027</span></a><p>Security, Safety, and Trust for Agents on the Web</p><p class="footer-note">Proposed workshop · The Web Conference 2027</p></div><a href="#home" class="back-top">Back to top <span aria-hidden="true">↑</span></a></footer>
+  </main>
+</body>
+</html>
