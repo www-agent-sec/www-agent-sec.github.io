@@ -1,13 +1,13 @@
 # www_agent_sec — WASST 2027 website
 
-This is the complete, flat upload package for the `www-agent-sec/www-agent-sec.github.io` repository.
+This is the complete upload source for the `www-agent-sec/www-agent-sec.github.io` repository.
 Expected website address: **https://www-agent-sec.github.io/**.
 
 ## Upload and publish
 
-1. Select all 11 files in this directory, including `.nojekyll`, and upload them together to the repository root.
-2. Keep every file at the same level. `index.html`, `styles.css`, `script.js`, the image, favicon, fonts, font license, and artwork prompt all belong in the root; there is no `assets/` folder in this package.
-3. Verify that all 11 files are present before committing.
+1. Upload all files and the `organisers/` folder in this directory, including `.nojekyll`, to the repository root.
+2. Keep `index.html`, `styles.css`, `script.js`, the background image, favicon, fonts, font license, artwork prompt, and photo source record in the root. Keep the eight organiser portraits inside `organisers/`.
+3. Verify that the page files and all eight portrait images are present before committing.
 4. In **Settings → Pages**, use **Deploy from a branch**, `main`, and `/(root)`.
 5. After deployment completes, open **https://www-agent-sec.github.io/**.
 
@@ -69,3 +69,7 @@ The hero uses PT Sans Bold, while the main text and section headings use Arial, 
 `hero-web-v2.png` was generated with the built-in image generation tool as an original, sharp blue/violet web-network visual. The generation prompt is preserved in `hero-web-v2-prompt.txt`.
 
 The hero applies a gradual dark overlay to the lower portion so bright points remain visible without glare. The image file itself is preserved.
+
+## Organiser photographs
+
+Eight local WebP portraits accompany the organisers, with a two-column desktop layout and a single-column layout on phones. Xueyi Zhang's portrait was extracted from the user-supplied TICI2026 workbook, Sheet1 row 7. Other portraits come from the organisers' academic profiles, research centres, or the ICCV 2025 tutorial website. See `organiser-photo-sources.json` for the source record. Images are cropped and resized without changing facial features. The workbook itself is not bundled.

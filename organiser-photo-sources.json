@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Jiawen Zhu",
+    "file": "organisers/jiawen-zhu.webp",
+    "source_page": "https://sites.google.com/view/iccv2025-tutorial-fm-driven-ad/home",
+    "source_note": "Public academic profile or workshop organiser page; identity checked against affiliation and contact information.",
+    "processing": "Portrait crop and resize only. No face generation or retouching."
+  },
+  {
+    "name": "Mike Qizhou Wang",
+    "file": "organisers/mike-qizhou-wang.webp",
+    "source_page": "https://www.admscentre.org.au/mike-wang/",
+    "source_note": "Public academic profile or workshop organiser page; identity checked against affiliation and contact information.",
+    "processing": "Portrait crop and resize only. No face generation or retouching.",
+    "source_image": "https://www.admscentre.org.au/wp-content/uploads/2026/05/Mike-Wang.jpg"
+  },
+  {
+    "name": "Xueyi Zhang",
+    "file": "organisers/xueyi-zhang.webp",
+    "source_page": null,
+    "source_note": "User-supplied TICI2026-专题信息收集表-脑智能.xlsx, Sheet1, row 7, embedded photo anchored at F7 (xl/media/image16.png).",
+    "processing": "Portrait crop and resize only. No face generation or retouching."
+  },
+  {
+    "name": "Jiaheng Zhang",
+    "file": "organisers/jiaheng-zhang.webp",
+    "source_page": "https://zjhzjh123.github.io/",
+    "source_note": "Public academic profile or workshop organiser page; identity checked against affiliation and contact information.",
+    "processing": "Portrait crop and resize only. No face generation or retouching.",
+    "source_image": "https://zjhzjh123.github.io/image4.jpeg"
+  },
+  {
+    "name": "Elisa Ricci",
+    "file": "organisers/elisa-ricci.webp",
+    "source_page": "https://eliricci.eu/",
+    "source_note": "Public academic profile or workshop organiser page; identity checked against affiliation and contact information.",
+    "processing": "Portrait crop and resize only. No face generation or retouching.",
+    "source_image": "https://eliricci.eu/wp-content/uploads/2023/09/Elisa_Ricci-300x300-1.jpeg"
+  },
+  {
+    "name": "Flora Salim",
+    "file": "organisers/flora-salim.webp",
+    "source_page": "https://www.unsw.edu.au/staff/flora-salim",
+    "source_note": "Public academic profile or workshop organiser page; identity checked against affiliation and contact information.",
+    "processing": "Portrait crop and resize only. No face generation or retouching.",
+    "source_image": "https://api.research.unsw.edu.au/sites/default/files/images/profile/IMG_3921_edit_2.jpeg"
+  },
+  {
+    "name": "Guansong Pang",
+    "file": "organisers/guansong-pang.webp",
+    "source_page": "https://sites.google.com/view/iccv2025-tutorial-fm-driven-ad/home",
+    "source_note": "Public academic profile or workshop organiser page; identity checked against affiliation and contact information.",
+    "processing": "Portrait crop and resize only. No face generation or retouching."
+  },
+  {
+    "name": "Christopher Leckie",
+    "file": "organisers/christopher-leckie.webp",
+    "source_page": "https://www.admscentre.org.au/christopher-leckie/",
+    "source_note": "Public academic profile or workshop organiser page; identity checked against affiliation and contact information.",
+    "processing": "Portrait crop and resize only. No face generation or retouching.",
+    "source_image": "https://www.admscentre.org.au/wp-content/uploads/2020/11/Christopher-Leckie.jpg"
+  }
+]
