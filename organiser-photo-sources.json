@@ -40,10 +40,10 @@
   {
     "name": "Flora Salim",
     "file": "organisers/flora-salim.webp",
-    "source_page": "https://www.unsw.edu.au/staff/flora-salim",
-    "source_note": "Public academic profile or workshop organiser page; identity checked against affiliation and contact information.",
+    "source_page": "https://www.pakdd2026.org/organization",
+    "source_note": "PAKDD 2026 official organizing committee page. Flora Salim is listed as General Chair, University of New South Wales, Australia.",
     "processing": "Portrait crop and resize only. No face generation or retouching.",
-    "source_image": "https://api.research.unsw.edu.au/sites/default/files/images/profile/IMG_3921_edit_2.jpeg"
+    "source_image": "https://www.pakdd2026.org/images/flora-salim.png"
   },
   {
     "name": "Guansong Pang",
