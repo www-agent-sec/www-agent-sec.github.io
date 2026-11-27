@@ -286,6 +286,7 @@ main { min-width: 0; margin-left: var(--sidebar-width); }
 .dates-table dd { margin: 0; color: #444; }
 .tba-dot { display: none; }
 .source-note { margin: 18px 0 0; color: #5b5b5b; font-size: 15px; }
+.source-note a { text-decoration: underline; text-underline-offset: 3px; }
 .organiser-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
