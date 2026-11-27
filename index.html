@@ -21,6 +21,7 @@
       <a href="#about">About</a>
       <a href="#topics">Topics</a>
       <a href="#submission">Submission</a>
+      <a href="#publication">Publication policy</a>
       <a href="#format">Format of workshop</a>
       <a href="#attendance">Attendance</a>
       <a href="#dates">Important dates</a>
@@ -61,18 +62,44 @@
         <p class="section-intro">The workshop is organised around three complementary dimensions — safety, security, and trust — alongside the ecosystems, defences, and evaluation practices that connect them. Topics include, but are not limited to:</p>
         <div class="topic-list"><article class="topic-row"><div class="topic-label"><h3>Safety</h3></div><div class="topic-body"><p class="theme-description">Failures that arise without an adversary, including misunderstood instructions, unintended or irreversible actions, and compounding errors across long action sequences.</p><ul><li>Unintended and irreversible actions</li><li>Error propagation in long-horizon and multi-agent tasks</li><li>Failures of safety alignment in tool use and GUI execution</li><li>Privacy leakage through agent actions</li></ul></div></article><article class="topic-row"><div class="topic-label"><h3>Security</h3></div><div class="topic-body"><p class="theme-description">Deliberate attacks that exploit web content, tools, and interfaces to hijack, manipulate, or exhaust agents.</p><ul><li>Attacks across the perception, reasoning, execution, and memory layers of web agents</li><li>Prompt injection, goal hijacking, and confused-deputy exploits</li><li>Backdoor and poisoning attacks</li><li>Multimodal and interface-based jailbreaks</li><li>Memory poisoning and persistent attacks</li><li>Resource-exhaustion and denial-of-efficiency attacks</li><li>Automated and adaptive red-teaming</li></ul></div></article><article class="topic-row"><div class="topic-label"><h3>Trust</h3></div><div class="topic-body"><p class="theme-description">Agents deployed for harmful ends, and the web’s ability to distinguish them from legitimate agents.</p><ul><li>Agents deployed for fraud, manipulation, abusive automation, or attacks on web services</li><li>Detection and measurement of agent activity at web scale</li><li>Agent identity, authentication, authorization, and attestation</li><li>Content provenance and non-repudiation</li><li>Effects of agentic traffic on publishers, platforms, and users</li></ul></div></article><article class="topic-row"><div class="topic-label"><h3>Agent ecosystems and emerging threats</h3></div><div class="topic-body"><ul><li>Security of tool and agent supply chains</li><li>Malicious or compromised tools, plugins, and MCP servers</li><li>Tool poisoning, privilege escalation, and cross-agent attacks</li><li>Fully autonomous agents conducting fraud, scams, and social engineering at scale</li><li>Coordinated bot networks operating across platforms</li><li>Risks arising from multi-agent systems, agentic interaction, and tool protocols such as MCP</li><li>Attacks on retrieval-augmented and memory-persistent agents</li><li>Threats related to agentic commerce and autonomous transactions</li></ul></div></article><article class="topic-row"><div class="topic-label"><h3>Defences, evaluation, and governance</h3></div><div class="topic-body"><ul><li>Benchmarks, datasets, and metrics for agent safety, security, and trust</li><li>Runtime monitoring, containment, and policy enforcement</li><li>Least-privilege tool access and permission control</li><li>Auditing, traceability, and incident response</li><li>Empirical studies of commercial agents in real web environments</li><li>Scalable evaluation against adaptive adversaries</li><li>Open problems and forward-looking position papers</li></ul></div></article></div>
       </section>
-      <section id="submission" class="section" aria-labelledby="submission-heading">
+      <section id="submission" class="section author-guidelines" aria-labelledby="submission-heading">
         <div class="section-heading"><h2 id="submission-heading">Submission Requirements</h2></div>
-        <p>Submit your paper through the <a href="https://openreview.net/group?id=ACM.org/TheWebConf/2027/Workshop/WASST"><strong>WASST 2027 submission site on OpenReview</strong></a> by <strong><time datetime="2027-01-04T00:00:00Z">4 January 2027, 00:00 UTC</time></strong>. Use the ACM <em>sigconf</em> template and upload an anonymised PDF for double-blind review.</p>
+        <p>Submit your paper through <a href="https://openreview.net/group?id=ACM.org/TheWebConf/2027/Workshop/WASST"><strong>WASST 2027 on OpenReview</strong></a> by <strong><time datetime="2027-01-04T00:00:00Z">4 January 2027, 00:00 UTC</time></strong>. Both submission tracks use the same deadline.</p>
+
+        <h3>Choose a track and check the page limit</h3>
         <ul class="contribution-list">
-          <li><strong>Archival track.</strong> Long papers may be up to 8 pages and short papers up to 4 pages, excluding references and appendices. Accepted papers appear in the WWW 2027 Companion Proceedings. The final version is due on <time datetime="2027-02-16">16 February 2027</time>. Dual submission is prohibited.</li>
-          <li><strong>Non-archival track.</strong> Papers may be up to 8 pages. Accepted papers are presented at the workshop without publication in the proceedings. Work under review or published elsewhere is eligible.</li>
+          <li><strong>Archival track (for publication).</strong> A long paper may have up to <strong>8 pages</strong>, and a short paper up to <strong>4 pages</strong>. For both lengths, references and appendices are excluded from the limit. Submit original work that has not been published and is not under review elsewhere.</li>
+          <li><strong>Non-archival track (for presentation).</strong> Papers may have up to <strong>8 pages</strong>. Work already published or under review at another journal, conference, or workshop is eligible. An accepted paper is presented at WASST and does not appear in the conference proceedings.</li>
         </ul>
-        <p>Remove author names and affiliations from the PDF, and avoid self-citations or links that identify the authors. Disclose any use of generative AI to produce content. At least one author per submission may be asked to review for the workshop.</p>
-        <p class="official-link-line"><a href="wasst-2027-cfp.pdf" type="application/pdf">WASST 2027 Call for Papers (PDF)</a></p>
-        <h3>Conference publication policy</h3>
+
+        <h3>Prepare an anonymous PDF</h3>
+        <p>Use the ACM <em>sigconf</em> format and upload your manuscript as a PDF. The technical chairs lead a double-blind peer review by the workshop program committee. The following requirements apply to both tracks. <a href="https://www.acm.org/publications/proceedings-template">Get the ACM proceedings template.</a></p>
+        <ul class="contribution-list">
+          <li>Remove all author names and affiliations from the manuscript.</li>
+          <li>Cite your own work without identifying yourself as its author.</li>
+          <li>Omit links to repositories or websites that reveal an author’s identity.</li>
+        </ul>
+        <p><strong>Submissions that are not properly anonymised will be desk rejected.</strong></p>
+
+        <h3>Complete the OpenReview form</h3>
+        <p>Every author must have an OpenReview profile before submission. Enter the authors in the form and keep the manuscript anonymous. Provide the paper title, comma-separated keywords, an abstract of up to 5,000 characters, and the PDF. The optional one-sentence summary (TLDR) may be up to 250 characters.</p>
+
+        <h3>Authorship and generative AI</h3>
+        <p>All submissions must follow the ACM Policy on Authorship. Generative AI tools cannot be listed as authors. If you used a generative AI tool to produce content for the paper, disclose that use in the manuscript, for example in the acknowledgements.</p>
+
+        <h3>Reciprocal reviewing</h3>
+        <p>At least one author of each submission may be required to review papers for WASST. Authors who are invited but fail to review responsibly may have their own submissions desk rejected.</p>
+        <p class="source-note"><a href="wasst-2027-cfp.pdf" type="application/pdf">WASST 2027 Call for Papers (PDF)</a></p>
+      </section>
+      <section id="publication" class="section author-guidelines" aria-labelledby="publication-heading">
+        <div class="section-heading"><h2 id="publication-heading">Publication Policy</h2></div>
+        <h3>Archival papers and the camera-ready version</h3>
+        <p>Accepted archival papers are included in the <em>Companion Proceedings of The Web Conference 2027</em>, subject to the camera-ready deadline. Acceptance notifications are scheduled for <time datetime="2027-02-01">1 February 2027</time>. If your archival paper is accepted, submit the final version by <strong><time datetime="2027-02-16">16 February 2027</time></strong> for inclusion in the proceedings.</p>
+
+        <h3>Prior publication and simultaneous submissions</h3>
+        <p>The archival track prohibits dual submission. If your paper has already been published or is under review elsewhere, you may submit it to the non-archival track for presentation only. The conference states its policy as follows.</p>
         <blockquote class="source-excerpt" cite="https://www2027.thewebconf.org/call-for-workshops/"><p>Papers accepted by a workshop can be included in the Companion Proceedings of the Web Conference 2027, subject to meeting the camera-ready timeline. Workshop papers that have been previously published or are under review for another journal, conference or workshop should not be considered for publication but can be presented in a non-archival workshop.</p></blockquote>
-        <p class="source-note"><a href="https://www2027.thewebconf.org/call-for-workshops/">The Web Conference 2027 workshop policy</a></p>
+        <p class="source-note"><a href="https://www2027.thewebconf.org/call-for-workshops/">The Web Conference 2027 workshop policy</a> · <a href="wasst-2027-cfp.pdf" type="application/pdf">WASST 2027 Call for Papers (PDF)</a></p>
       </section>
       <section id="format" class="section" aria-labelledby="format-heading">
         <div class="section-heading"><h2 id="format-heading">Format of Workshop</h2></div>
