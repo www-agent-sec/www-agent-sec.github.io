@@ -119,6 +119,45 @@ main { min-width: 0; margin-left: var(--sidebar-width); }
 .menu-toggle { display: none; }
 .nav-caption, .sidebar-bottom { display: none; }
 
+.submission-banner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px 28px;
+  padding: 22px clamp(24px, 5vw, 70px);
+  border-top: 4px solid #38679e;
+  background: #eef4fb;
+  color: #142f55;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+.banner-deadline { margin: 0; }
+.deadline-label { display: block; font-size: 16px; line-height: 1.4; }
+.banner-deadline strong {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0 12px;
+  font-size: clamp(28px, 3vw, 38px);
+  line-height: 1.2;
+}
+.deadline-zone { color: #3c526d; font-size: 16px; font-weight: 400; }
+.submit-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  min-height: 46px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #214e86;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.submit-button:hover { background: #173b68; }
+
 /* A sharp, detailed image stays visible beneath the title and event details. */
 .hero {
   position: relative;
@@ -185,9 +224,6 @@ main { min-width: 0; margin-left: var(--sidebar-width); }
 .hero-meta > span { display: inline-flex; align-items: center; gap: 10px; }
 .hero-meta svg { width: 23px; height: 23px; flex-shrink: 0; stroke: currentColor; stroke-width: 1.5; }
 .hero-meta small { font-size: .7em; font-weight: 400; }
-.hero-workshop-note { margin: 12px 0 0; color: #e1e7f2; font-size: 17px; line-height: 1.55; text-shadow: 0 2px 8px #05112b99; }
-.hero-workshop-note a { text-decoration: underline; text-underline-offset: 4px; }
-.hero-context a:hover { text-decoration: underline; text-underline-offset: 6px; }
 .meta-value { color: inherit; }
 .hero-eyebrow, .hero-rule, .hero-link { display: none; }
 
@@ -396,7 +432,6 @@ main { min-width: 0; margin-left: var(--sidebar-width); }
   .hero-meta { flex-direction: column; align-items: flex-start; gap: 8px; font-size: 20px; line-height: 1.6; }
   .hero-meta > span { gap: 9px; }
   .hero-meta svg { width: 19px; height: 19px; }
-  .hero-workshop-note { font-size: 14px; }
   .content { padding: 0 24px; }
   .section { padding: 38px 0; }
   h2 { font-size: 34px; line-height: 1.4; }
@@ -442,6 +477,8 @@ main { min-width: 0; margin-left: var(--sidebar-width); }
 }
 
 @media (max-width: 430px) {
+  .submission-banner { padding: 16px 24px 18px; gap: 12px; }
+  .submit-button { width: 100%; }
   .organiser { gap: 16px; }
   .organiser-photo { flex-basis: 88px; width: 88px; height: 110px; }
   .organiser h3 { font-size: 18px; }
