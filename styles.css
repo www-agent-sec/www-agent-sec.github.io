@@ -287,6 +287,13 @@ main { min-width: 0; margin-left: var(--sidebar-width); }
 .tba-dot { display: none; }
 .source-note { margin: 18px 0 0; color: #5b5b5b; font-size: 15px; }
 .source-note a { text-decoration: underline; text-underline-offset: 3px; }
+.source-excerpt {
+  margin: 14px 0 18px;
+  padding: 2px 0 2px 18px;
+  border-left: 3px solid #bccce1;
+}
+.source-excerpt p + p { margin-top: 6px; }
+.source-excerpt p { margin-bottom: 0; }
 .organiser-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
